@@ -85,6 +85,9 @@ jobs:
             manifest.json
             review/evidence.json
           labels: requirements-review
+          # A direct "review requested" notification for the repository owner, whatever their watch settings.
+          reviewers: ${{ github.repository_owner }}
+          assignees: ${{ github.repository_owner }}
 
       - name: List pages that couldn't be checked
         if: always()
@@ -102,5 +105,5 @@ jobs:
                   print(f"- `{d['id']}`: {d.get('source', '')} — {d.get('note', '')}")
           PY
           if [ -s unreachable.md ]; then
-            gh issue create --title "Requirements review: pages to check by hand ($(date -u +%F))" --body-file unreachable.md
+            gh issue create --title "Requirements review: pages to check by hand ($(date -u +%F))" --body-file unreachable.md --assignee "${{ github.repository_owner }}"
           fi
