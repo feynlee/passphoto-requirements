@@ -13,6 +13,10 @@ on:
         description: "Only check these ids, comma-separated (empty checks everything)"
         required: false
         default: ""
+      debug:
+        description: "Show Claude's full output in the log (public on this repo)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -44,6 +48,7 @@ jobs:
           # The workflow's own token, so the Claude GitHub App doesn't need to be installed: Claude only
           # edits files here; the steps below do the git work and open the pull request.
           github_token: ${{ github.token }}
+          show_full_output: ${{ inputs.debug == true }}
           prompt: |
             Follow the instructions in tools/REVIEW_PROMPT.md.
             Use today's UTC date (run `date -u +%F`) for `verified` and `checkedAt`.
