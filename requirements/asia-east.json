@@ -1,0 +1,575 @@
+[
+  {
+    "id": "cn-passport",
+    "countryCode": "CN",
+    "country": "China",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 33,
+    "heightMM": 48,
+    "sizeLabel": "33 × 48 mm",
+    "headHeightMM": [
+      28,
+      33
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": [
+      3,
+      5
+    ],
+    "faceWidthMM": [
+      15,
+      22
+    ],
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "For Chinese citizens applying abroad; the same page covers the Travel Document (旅行证).",
+      "Chin to bottom edge at least 7 mm.",
+      "Colour photo with white background; glasses allowed only with colourless lenses and no glare or frame obscuring the eyes.",
+      "No hats or head coverings; for religious head coverings the whole face must remain visible.",
+      "Chinese Consular (中国领事) app uploads: JPG or PNG, under 5 MB (per the Embassy in Switzerland app guide); no official pixel size confirmed."
+    ],
+    "infant": null,
+    "source": "https://us.china-embassy.gov.cn/lsfw/zj/hzlxz/201903/t20190309_5098803.htm",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "cn-visa",
+    "countryCode": "CN",
+    "country": "China",
+    "document": "Visa",
+    "kind": "visa",
+    "widthMM": 33,
+    "heightMM": 48,
+    "sizeLabel": "48 × 33 mm",
+    "headHeightMM": [
+      28,
+      33
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": [
+      15,
+      22
+    ],
+    "background": "whiteOrOffWhite",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Colour photo taken within the last 6 months, printed on glossy photo paper, no border.",
+      "Background white or close to white.",
+      "Head turned no more than 20° left/right and tilted no more than 25° up/down.",
+      "No thick-framed, tinted or reflective glasses.",
+      "The visa sources do not state a top margin; the 3–5 mm top margin appears only in the passport specification, so it is not applied here.",
+      "The Consulate-General in Los Angeles lists head width 21–24 mm; the Chinese Visa Application Service Center pages list 15–22 mm (used here)."
+    ],
+    "infant": null,
+    "source": "https://www.visaforchina.cn/SYD3_EN/qianzhengyewu/jichuzhishi/changjianwenti/355135188537315328.html",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "hk-passport",
+    "countryCode": "HK",
+    "country": "Hong Kong",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 40,
+    "heightMM": 50,
+    "sizeLabel": "40 mm (W) × 50 mm (H)",
+    "headHeightMM": [
+      32,
+      36
+    ],
+    "headTop": "crown",
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": [
+      1200,
+      1600
+    ],
+    "maxFileKB": 5120,
+    "notes": [
+      "HKSAR passport and other HKSAR travel documents.",
+      "Head measured chin to crown, 32–36 mm, with sufficient headroom.",
+      "Plain white background; no head dress; avoid heavy make-up and overly dark or overly light clothing.",
+      "Glasses frames must not cross the eyes and there must be no flash reflection on the glasses.",
+      "Online/app submission: JPEG, 5 MB or below; digital camera image at least 1200 × 1600 px."
+    ],
+    "infant": null,
+    "source": "https://www.immd.gov.hk/eng/residents/immigration/traveldoc/photorequirements.html",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "mo-passport",
+    "countryCode": "MO",
+    "country": "Macau",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 mm × 45 mm",
+    "headHeightMM": [
+      34,
+      36
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "DSI-52-M specification for Macao SAR travel documents and resident identity cards.",
+      "Head height 34–36 mm for age 10 or above; 32–36 mm for children under 10.",
+      "Colour, frontal, bare-headed photo taken within 6 months; no white border.",
+      "Glasses must not cover the eyes or reflect light (avoid heavy black or white frames); no tinted or 'big-eye' contact lenses.",
+      "No filters or retouching."
+    ],
+    "infant": {
+      "maxAgeMonths": 119,
+      "eyesMayBeClosed": false,
+      "mouthMayBeOpen": false,
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "notes": [
+        "Applies to children under 10 years old. The source does not relax eye or mouth rules for babies."
+      ]
+    },
+    "source": "https://www.dsi.gov.mo/content/uploads/20260128/9b0e4c1e71b54c8e8c6bc80c3f9aa33e.pdf",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "mo-id-card",
+    "countryCode": "MO",
+    "country": "Macau",
+    "document": "ID Card",
+    "kind": "id",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 mm × 45 mm",
+    "headHeightMM": [
+      34,
+      36
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Macao SAR Resident Identity Card; same DSI-52-M specification as travel documents.",
+      "Photo must be taken within 1 year (travel documents: 6 months).",
+      "Head height 34–36 mm for age 10 or above; 32–36 mm for children under 10.",
+      "Glasses must not cover the eyes or reflect light; no tinted or 'big-eye' contact lenses."
+    ],
+    "infant": {
+      "maxAgeMonths": 119,
+      "eyesMayBeClosed": false,
+      "mouthMayBeOpen": false,
+      "headHeightMM": [
+        32,
+        36
+      ],
+      "notes": [
+        "Applies to children under 10 years old. The source does not relax eye or mouth rules for babies."
+      ]
+    },
+    "source": "https://www.dsi.gov.mo/content/uploads/20260128/9b0e4c1e71b54c8e8c6bc80c3f9aa33e.pdf",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "tw-passport",
+    "countryCode": "TW",
+    "country": "Taiwan",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "4.5 × 3.5 cm",
+    "headHeightMM": [
+      32,
+      36
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": [
+      413,
+      531
+    ],
+    "maxFileKB": 5120,
+    "notes": [
+      "Size excludes border; head (top of head to chin) 3.2–3.6 cm, about 70–80% of the photo.",
+      "White background, even lighting, no shadows, no red-eye; colour photo taken within 6 months.",
+      "No tinted glasses (except for the visually impaired); frames must not cover any part of the eyes; no glare.",
+      "Children's photos must show only the applicant (no chair backs, toys, pacifiers or helpers' hands).",
+      "Online: JPG/JPEG, RGB 24-bit, at most 5 MB, at least 413 × 531 px."
+    ],
+    "infant": null,
+    "source": "https://www.boca.gov.tw/np-16-1.html",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "jp-passport",
+    "countryCode": "JP",
+    "country": "Japan",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "45 × 35 mm",
+    "headHeightMM": [
+      32,
+      36
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "plainLight",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Head from top of head to chin 34 mm ± 2 mm.",
+      "Plain background with no shadow, pattern, objects or gradation; white is recommended.",
+      "No black or dark-tinted lenses; no reflection on the lenses.",
+      "Specification follows ICAO recommendations (MOFA). Values read from the Osaka Prefecture passport office page, which links to the MOFA specification.",
+      "Infants: photos with eyes closed or an expression markedly different from normal (e.g. open-mouthed smile) are not accepted."
+    ],
+    "infant": null,
+    "source": "https://www.pref.osaka.lg.jp/o070140/passport/top/shashin.html",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "jp-visa",
+    "countryCode": "JP",
+    "country": "Japan",
+    "document": "Visa",
+    "kind": "visa",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "45 mm × 35 mm",
+    "headHeightMM": null,
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "discouraged",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Size from the MOFA 'Visa Application Form to Enter Japan' photo box: 45 mm × 35 mm or 2 in × 1.4 in.",
+      "No official head-size range found for visa photos.",
+      "Requirements vary by embassy/consulate: e.g. the Consulate-General in Mumbai requires 45 × 45 mm; check the mission where you apply.",
+      "Missions state: taken within 6 months, frontal, no hat, plain white background; no thick-framed glasses or sunglasses (Embassy in Serbia)."
+    ],
+    "infant": null,
+    "source": "https://www.mofa.go.jp/files/000124525.pdf",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "kr-passport",
+    "countryCode": "KR",
+    "country": "South Korea",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "3.5 × 4.5 cm",
+    "headHeightMM": [
+      32,
+      36
+    ],
+    "headTop": "crown",
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": [
+      395,
+      507
+    ],
+    "maxFileKB": 500,
+    "notes": [
+      "Head length measured from the top of the skull (excluding hair) to the chin: 3.2–3.6 cm.",
+      "Uniform white background with no border; background must not be removed or composited with editing software.",
+      "Mouth closed (no teeth), neutral expression; hair must not cover eyebrows or face outline.",
+      "No tinted/circle lenses or sunglasses; no reflection on glasses and frames must not cover the eyes.",
+      "Online: JPG/JPEG up to 500 KB; 413 × 531 px recommended (upload accepts 395–431 × 507–550 px); 300 dpi recommended.",
+      "Follows ICAO standards (2022-10 revision)."
+    ],
+    "infant": {
+      "maxAgeMonths": 36,
+      "eyesMayBeClosed": false,
+      "mouthMayBeOpen": true,
+      "headHeightMM": null,
+      "notes": [
+        "All adult rules apply; newborns and infants up to 36 months may have the mouth slightly open.",
+        "No toys, objects or guardians may be visible."
+      ]
+    },
+    "source": "https://www.passport.go.kr/home/kor/contents.do?menuPos=32",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "sg-passport",
+    "countryCode": "SG",
+    "country": "Singapore",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 mm × 45 mm",
+    "headHeightMM": [
+      25,
+      35
+    ],
+    "headTop": "crown",
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": [
+      400,
+      514
+    ],
+    "minPixels": null,
+    "maxFileKB": 8192,
+    "notes": [
+      "Face measured from chin to crown of head, 25–35 mm; taken within the last 3 months, no border (Embassy in Washington, relaying ICA rules).",
+      "If hair, hat or head covering is white, use a light grey background instead of white.",
+      "Glasses: clear, untinted lenses only, eyes clearly visible, no reflection, frames must not cover the eyes. No coloured contact lenses.",
+      "Neutral expression, mouth closed; shoulders and hair visible.",
+      "ICA e-Services upload: 400 × 514 px; jpg, jpeg, heic, heif or png; max 8 MB (https://www.ica.gov.sg/photo-guidelines).",
+      "Printed photos must be matte or semi-matte. ICA states its requirements follow ISO and ICAO specifications."
+    ],
+    "infant": null,
+    "source": "https://washington.mfa.gov.sg/consular-services/citizens-services/apply-or-renew-singapore-passport/",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "my-passport",
+    "countryCode": "MY",
+    "country": "Malaysia",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 50,
+    "sizeLabel": "35mm x 50mm",
+    "headHeightMM": [
+      25,
+      30
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "notAllowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "The source gives face size as 'minimum 25-30mm (50%–60% of the photo space, per ICAO)'; 50–60% of 50 mm = 25–30 mm. It does not say whether this is the face or chin to top of head.",
+      "White background with no shadows.",
+      "No glasses or coloured contact lenses (Malaysian missions in Washington and Los Angeles).",
+      "Wear dark clothing, not a white shirt; ears and eyebrows visible.",
+      "The size varies by mission: the US missions ask for 2 × 2 in. In Malaysia and at many missions the photo is taken at the counter."
+    ],
+    "infant": null,
+    "source": "https://www.kln.gov.my/web/pak_islamabad/passport_renewal",
+    "verified": "2026-09-25",
+    "confidence": "partial"
+  },
+  {
+    "id": "bn-passport",
+    "countryCode": "BN",
+    "country": "Brunei",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 40,
+    "heightMM": 52,
+    "sizeLabel": "5.2cm x 4cm",
+    "headHeightMM": null,
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "discouraged",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Printed photos are needed only for applications made through Brunei missions abroad; in Brunei the photo is taken at the counter.",
+      "White background, per the Immigration Department's checklists.",
+      "No official head size and no glasses rule were found; the glasses value is a cautious default, not an official rule."
+    ],
+    "infant": null,
+    "source": "https://www.immigration.gov.bn/wp-content/uploads/2025/12/Borang-Passport.pdf",
+    "verified": "2026-09-25",
+    "confidence": "partial"
+  },
+  {
+    "id": "vn-passport",
+    "countryCode": "VN",
+    "country": "Vietnam",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 40,
+    "heightMM": 60,
+    "sizeLabel": "4 × 6 cm",
+    "headHeightMM": null,
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "discouraged",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Two 4 × 6 cm portrait photos, white background, taken within 6 months (Vietnam Embassy in the US, chip e-passport notice, April 2026).",
+      "The mission also captures a photo and fingerprints on site.",
+      "No official head size and no glasses rule were found; the glasses value is a cautious default, not an official rule."
+    ],
+    "infant": null,
+    "source": "https://vietnamembassy-usa.org/news/2026/04/thong-bao-huong-dan-moi-ve-viec-cap-ho-chieu-pho-thong-gan-chip-dien-tu",
+    "verified": "2026-09-25",
+    "confidence": "partial"
+  },
+  {
+    "id": "vn-evisa",
+    "countryCode": "VN",
+    "country": "Vietnam",
+    "document": "e-Visa",
+    "kind": "visa",
+    "widthMM": 40,
+    "heightMM": 60,
+    "sizeLabel": "4x6 cm",
+    "headHeightMM": null,
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "notAllowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": 2048,
+    "notes": [
+      "Upload as JPG/JPEG, under 2 MB.",
+      "Recently taken; face straight, no hat, no glasses, formal clothes, white background.",
+      "The system checks the face against the passport photo and rejects faces that are too small ('does not meet the required resolution').",
+      "No head size or pixel size is stated."
+    ],
+    "infant": null,
+    "source": "https://evisa.gov.vn/",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "la-evisa",
+    "countryCode": "LA",
+    "country": "Laos",
+    "document": "e-Visa",
+    "kind": "visa",
+    "widthMM": 40,
+    "heightMM": 60,
+    "sizeLabel": "4 x 6 cm",
+    "headHeightMM": null,
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Colour photo taken within the last 6 months; plain white background; no shadows; facing the camera, neutral expression, eyes open.",
+      "Official photo-spec image: clear glasses allowed; no reflection on glasses, no tinted glasses, frames must not cover the eyes. A headscarf with the full face visible is acceptable.",
+      "No head size is stated."
+    ],
+    "infant": null,
+    "source": "https://laoevisa.gov.la/faq",
+    "verified": "2026-09-25",
+    "confidence": "partial"
+  },
+  {
+    "id": "mm-evisa",
+    "countryCode": "MM",
+    "country": "Myanmar",
+    "document": "e-Visa",
+    "kind": "visa",
+    "widthMM": 38,
+    "heightMM": 46,
+    "sizeLabel": "4.6 cm X 3.8 cm",
+    "headHeightMM": null,
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "plainLight",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": 2048,
+    "notes": [
+      "Tourist and business e-Visa: one colour photo taken within the last 3 months.",
+      "Upload as JPG or PDF; 2 MB limit for Step 3 uploads (user guide).",
+      "No official background colour, glasses rule or head size is stated. The background and glasses values are cautious defaults, not official rules."
+    ],
+    "infant": null,
+    "source": "https://evisa.moip.gov.mm/notice/tourist",
+    "verified": "2026-09-25",
+    "confidence": "partial"
+  }
+]

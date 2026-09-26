@@ -1,0 +1,868 @@
+[
+  {
+    "id": "eu-schengen-visa",
+    "countryCode": "EU",
+    "country": "Schengen Area",
+    "document": "Visa",
+    "kind": "visa",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm",
+    "headHeightMM": [
+      32,
+      36
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "lightGrey",
+    "backgroundFill": "#D9DADC",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Face (chin to crown) must take up 70–80% of the photo height, i.e. 32–36 mm; head including hairstyle should be fully shown.",
+      "Background one colour and bright, ideally neutral grey (medium grey for light hair, light grey for dark hair); no pattern or shadows.",
+      "Glasses allowed if eyes clearly visible: no reflections, no tinted glasses or sunglasses, frames must not cover the eyes.",
+      "Neutral expression, mouth closed, looking straight into the camera; no headwear except for religious reasons.",
+      "Printed at least 600 dpi on high-quality paper.",
+      "Source is the Schengen visa photo sheet published by a German mission; individual Schengen consulates or visa centres may add their own wording (e.g. background colour)."
+    ],
+    "infant": null,
+    "source": "https://kuwait.diplo.de/resource/blob/2079290/153d98a9ab09f4702a0d796b5000a6f6/pdf-bio-photo-data.pdf",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "at-passport-id",
+    "countryCode": "AT",
+    "country": "Austria",
+    "document": "Passport & ID Card",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm",
+    "headHeightMM": [
+      30,
+      36
+    ],
+    "headTop": "crown",
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "lightGrey",
+    "backgroundFill": "#D9DADC",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Head (chin tip to crown) should take up approx. 2/3 of the image (≈30 mm of 45 mm, converted) and must not exceed 36 mm; high hairstyles may extend beyond the frame.",
+      "Eye distance (centre to centre) at least 8 mm, optimally 10 mm; head centred.",
+      "Background single-colour and light, ideally grey (medium grey for light hair, light grey for dark hair); no pattern or shadows.",
+      "Glasses allowed if eyes clearly visible; no reflections, tinted lenses or sunglasses; frames must not cover the eyes.",
+      "Colour photo only (B/W not accepted for passport, ID card, residence permit); not older than 6 months.",
+      "Children must be alone in the photo with face fully visible and eyes open.",
+      "Same criteria apply to residence permits and driving licences."
+    ],
+    "infant": null,
+    "source": "https://www.bmi.gv.at/607/files/passbild_kriterien_2022.pdf",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "be-passport-id",
+    "countryCode": "BE",
+    "country": "Belgium",
+    "document": "Passport & ID Card",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm",
+    "headHeightMM": [
+      31,
+      36
+    ],
+    "headTop": "crown",
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "plainLight",
+    "backgroundFill": "#D9DADC",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Face length (chin to crown) 31–36 mm, i.e. 70–80% of the photo height.",
+      "Background light-coloured, uniform, single colour, no gradient, with enough contrast to the head.",
+      "Glasses allowed if eyes fully visible, lenses fully transparent, no disturbing reflection or shadow; otherwise remove them.",
+      "Neutral expression, mouth closed, teeth not visible; colour photo (B/W not allowed for passports); max 6 months old; printed at min. 400 dpi.",
+      "Applies to passports, Kids-ID, eID and residence documents for foreigners."
+    ],
+    "infant": {
+      "maxAgeMonths": 71,
+      "eyesMayBeClosed": false,
+      "mouthMayBeOpen": true,
+      "headHeightMM": null,
+      "notes": [
+        "Under 6: exempt from 'eyes on a horizontal line', 'head tilted', 'shoulders straight', 'neutral expression', 'looking into the camera' and 'mouth closed'.",
+        "Any support holding the child must not be visible."
+      ]
+    },
+    "source": "https://www.ibz.rrn.fgov.be/sites/default/files/documents/nl/identiteitsdocumenten/fotomatrix/2016_Matrice_NL.pdf",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "bg-passport-id",
+    "countryCode": "BG",
+    "country": "Bulgaria",
+    "document": "Passport & ID Card",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm",
+    "headHeightMM": [
+      31.5,
+      36
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "lightGrey",
+    "backgroundFill": "#CCCCCC",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Most applications (in Bulgaria and at equipped consulates) capture the face digitally at the counter; a printed photo is only needed where no digital capture is available (Regulation Art. 9(3), Art. 21(6)).",
+      "Rules from Annex 5 to the Regulation on Issuing Bulgarian Personal Documents (PMS No. 13/2010); applies to all Bulgarian personal documents.",
+      "Background: neutral light grey, 20% grey density (acceptable range 15 to 25%).",
+      "After trimming, 47 ± 2 mm × 37 ± 2 mm is tolerated.",
+      "Colour, taken within the last 2 years; smooth matte paper 0.12 to 0.20 mm thick; no glossy paper, scans or retouching.",
+      "Frontal, head centred, camera at eye level; even lighting, no shadows, glare or red-eye.",
+      "Glasses only if worn permanently, with untinted lenses and no reflections.",
+      "No hats or headscarves unless both ears and at least 1 cm of hair are visible."
+    ],
+    "infant": {
+      "maxAgeMonths": 168,
+      "eyesMayBeClosed": false,
+      "mouthMayBeOpen": false,
+      "headHeightMM": [
+        25,
+        35
+      ],
+      "notes": [
+        "For persons under 14, head height 25 to 35 mm."
+      ]
+    },
+    "source": "https://asp.government.bg/uploaded/files/external/%D0%97%D0%B0%D0%BA%D0%BE%D0%BD%D0%BE%D0%B4%D0%B0%D1%82%D0%B5%D0%BB%D1%81%D1%82%D0%B2%D0%BE/%D0%9F%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%BD%D0%B8%D1%86%D0%B8/Pravilnik_za_izdavane_na_BG_lichni_dokumenti.doc",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "hr-passport-id",
+    "countryCode": "HR",
+    "country": "Croatia",
+    "document": "Passport & ID Card",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "3,5 × 4,5 cm",
+    "headHeightMM": [
+      31.5,
+      36
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "plainLight",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Head (chin to crown) must fill 70 to 80% of the photo height (31.5 to 36 mm on 45 mm), per MUP/police guidance for the 2021 ID card; the passport and ID card regulations say about 2/3 of the photo and no more than 36 mm.",
+      "Background: single-colour light, no pattern, enough contrast with face and hair (Pravilnik NN 63/2015 and NN 4/2010).",
+      "Head centred; distance between eye centres at least 8 mm (optimally 10 mm).",
+      "Frontal (en face), forehead uncovered, neutral expression, eyes open, mouth closed.",
+      "No head covering except for religious or medical reasons, provided cheeks, chin and forehead stay visible.",
+      "Glasses are not prohibited; tinted glasses only for blind persons.",
+      "Children must be alone in the photo with the face fully visible and eyes open.",
+      "Colour photo on high-quality smooth glossy paper; no retouching and no photo-booth (automat) photos.",
+      "Passport sizes: 35×45 mm (putni list uses 30×35 mm). No photo needed if a passport or eID was issued in the last 5 years and appearance has not changed.",
+      "Regulations: https://narodne-novine.nn.hr/clanci/sluzbeni/full/2015_06_63_1213.html and https://zakon.hr/cms.htm?id=9557"
+    ],
+    "infant": null,
+    "source": "https://primorsko-goranska-policija.gov.hr/print.aspx?id=16778&url=print",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "dk-passport-id",
+    "countryCode": "DK",
+    "country": "Denmark",
+    "document": "Passport & ID Card",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm",
+    "headHeightMM": [
+      30,
+      36
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "plainLight",
+    "backgroundFill": "#D9DADC",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Head 30–36 mm from tip of chin to top of hair.",
+      "Background without motifs, in a uniform light colour, e.g. light blue or light grey. People with white/light hair or a light headscarf need a background in sharp contrast.",
+      "Photo shows the face and the top of the shoulders, taken straight on; colour or black-and-white.",
+      "Glasses: eyes fully clear of frames, lenses not tinted and without reflections.",
+      "Head covering only for religious reasons; forehead, chin and cheekbones visible.",
+      "All rules also apply to children. Same police rules apply to driving licence photos.",
+      "ID card (legitimationskort) is issued by municipalities; e.g. Odense requires a photo meeting the police passport photo rules. Some municipalities take the photo at Borgerservice instead."
+    ],
+    "infant": null,
+    "source": "https://politi.dk/-/media/mediefiler/landsdaekkende-dokumenter/lov-og-information/pas/krav-til-pasfoto/krav-til-pasbilleder.pdf",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "ee-passport-id",
+    "countryCode": "EE",
+    "country": "Estonia",
+    "document": "Passport & ID Card",
+    "kind": "passport",
+    "widthMM": 40,
+    "heightMM": 50,
+    "sizeLabel": "40 × 50 mm",
+    "headHeightMM": [
+      35,
+      40
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "plainLight",
+    "backgroundFill": "#F2F2F2",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": [
+      1300,
+      1600
+    ],
+    "maxFileKB": 5120,
+    "notes": [
+      "Area between chin and top of head must be 70–80% of the photo height (35–40 mm on a 50 mm photo).",
+      "Background flat, single colour, light; recommended light blue, beige, light brown, light grey or white, contrasting with face and hair.",
+      "Digital upload to the PPA self-service portal: colour, unedited, at least 1,300 × 1,600 px, file size between 1 MB and 5 MB (per politsei.ee).",
+      "Taken within 6 months; neutral expression, mouth closed, eyes open, no headgear or headphones.",
+      "Glasses allowed if frames do not cover the eyes and there are no reflections.",
+      "Young children (0–7): mouth closed, looking straight into the camera; avoid big hair adornments and toys."
+    ],
+    "infant": null,
+    "source": "https://washington.mfa.ee/faq/",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "fi-passport-id",
+    "countryCode": "FI",
+    "country": "Finland",
+    "document": "Passport & ID Card",
+    "kind": "passport",
+    "widthMM": 36,
+    "heightMM": 47,
+    "sizeLabel": "36 × 47 mm (500 × 653 px)",
+    "headHeightMM": [
+      32,
+      36
+    ],
+    "headTop": "crown",
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": [
+      4,
+      6
+    ],
+    "faceWidthMM": null,
+    "background": "lightGrey",
+    "backgroundFill": "#D9DADC",
+    "glasses": "allowed",
+    "digitalPixels": [
+      500,
+      653
+    ],
+    "minPixels": null,
+    "maxFileKB": 250,
+    "notes": [
+      "Head size is measured from crown of head to chin EXCLUDING hair and beard: 445–500 px (32–36 mm). Hair need not be fully visible.",
+      "Above the crown: 56–84 px (4–6 mm). Below the chin: 96–124 px (7–9 mm). Face centre line within 21 px (1.5 mm) of photo centre line.",
+      "Digital photos (sent by the photographer to the police photo server) must be exactly 500 × 653 px, JPEG (not JPEG2000), max 250 KB.",
+      "Paper photo size 36 × 47 mm per Finnish Immigration Service (Migri) photo guidance; paper photos only accepted at a police service point.",
+      "Best background colour is light grey; must be monochrome, light, neutral, without shadows, and contrast with face, hair and clothes.",
+      "Same instructions apply to passports, identity cards and permits granted by the police (residence permits use the same rules).",
+      "Glasses allowed if frames are not near the eyes and there are no reflections; tinted glasses only for medical reasons.",
+      "An older Migri form allows a smaller head (min 25 mm) for children under 11; the 2020 police instructions state the same requirements apply to all ages."
+    ],
+    "infant": {
+      "maxAgeMonths": null,
+      "eyesMayBeClosed": false,
+      "mouthMayBeOpen": true,
+      "headHeightMM": null,
+      "notes": [
+        "Rules on a closed mouth are flexible for very young babies, but the mouth may only be slightly open.",
+        "Even small children must keep their eyes open.",
+        "A small child may be supported, but no part of the supporting person may be visible."
+      ]
+    },
+    "source": "https://poliisi.fi/documents/25235045/31329600/Passport-photograph-instructions-by-the-police-2020-EN-fixed.pdf",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "fr-passport-id",
+    "countryCode": "FR",
+    "country": "France",
+    "document": "Passport & ID Card",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm",
+    "headHeightMM": [
+      32,
+      36
+    ],
+    "headTop": "crown",
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "lightNotWhite",
+    "backgroundFill": "#CFE3F3",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Face size 3.2–3.6 cm (70–80% of the photo) is measured from the bottom of the chin to the top of the skull, EXCLUDING hair.",
+      "Background must be plain and light-coloured (e.g. light blue or light grey); white background is forbidden.",
+      "Taken less than 6 months ago; must be taken by an approved professional photographer or approved booth.",
+      "Neutral expression, mouth closed, eyes open and visible, head bare, ears uncovered.",
+      "Glasses optional; if worn, thin frames not masking the eyes, lenses not tinted and without reflection.",
+      "Colour photo strongly recommended."
+    ],
+    "infant": null,
+    "source": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10619",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "de-passport-id",
+    "countryCode": "DE",
+    "country": "Germany",
+    "document": "Passport & ID Card",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm",
+    "headHeightMM": [
+      32,
+      36
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "lightGrey",
+    "backgroundFill": "#D9DADC",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Optimal face height (chin to top of head) 32–36 mm for ages 10 and over, per the BMI/Bundesdruckerei Lichtbild-Schablone.",
+      "Background uniform single colour, preferably light grey.",
+      "Colour only for digital photos; neutral expression, lips closed, eyes open and not covered.",
+      "Glasses allowed if the eyes remain recognisable and uncovered (no reflections or tinted lenses).",
+      "Since 1 May 2025 passports, ID cards and electronic residence permits accept only digital photos taken at the authority or uploaded by a certified photo service via cloud; paper photos only for exceptions.",
+      "Same rules apply to the electronic residence permit (eAT)."
+    ],
+    "infant": {
+      "maxAgeMonths": 119,
+      "eyesMayBeClosed": false,
+      "mouthMayBeOpen": false,
+      "headHeightMM": [
+        22,
+        36
+      ],
+      "notes": [
+        "Children 6–9 years: optimal face height 22–36 mm.",
+        "Children up to 5 years: no biometric check required; only size (35 × 45 mm), frontal pose, sharpness/contrast, lighting, background and photo quality apply (so eyes/expression are relaxed)."
+      ]
+    },
+    "source": "https://www.bundesdruckerei.de/system/files/dokumente/pdf/Passbildschablone-Erwachsene.pdf",
+    "verified": "2026-09-25",
+    "confidence": "confirmed",
+    "applicantPhoto": "certifiedPhotographerOnly"
+  },
+  {
+    "id": "gr-passport",
+    "countryCode": "GR",
+    "country": "Greece",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 40,
+    "heightMM": 60,
+    "sizeLabel": "40 × 60 mm",
+    "headHeightMM": [
+      31,
+      35
+    ],
+    "eyeLineFromBottomMM": [
+      30,
+      39
+    ],
+    "topMarginMM": null,
+    "faceWidthMM": [
+      20,
+      25
+    ],
+    "background": "lightGrey",
+    "backgroundFill": "#BEBEBE",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Printed-photo spec (used for applications abroad). Chin to crown 31–35 mm, face width ear to ear 20–25 mm, eye line 30–39 mm from bottom.",
+      "Background light, preferably grey RGB (190,190,190) ±10; older printed spec also allows white or cream.",
+      "In Greece the photo is submitted digitally via gov.gr myPhoto: JPEG, 1280 × 1600 px (4:5), max 3 MB.",
+      "Printed at 1200 dpi or more; not inkjet/laser; taken recently.",
+      "Wear glasses if normally worn: clear lenses, no reflections, frames not covering eyes; tinted/photochromic lenses not allowed.",
+      "Neutral expression, mouth closed, eyes normally open."
+    ],
+    "infant": {
+      "maxAgeMonths": 144,
+      "eyesMayBeClosed": false,
+      "mouthMayBeOpen": false,
+      "headHeightMM": null,
+      "notes": [
+        "For children under 12 and infants, face dimensions may reasonably be smaller than the adult values and are accepted."
+      ]
+    },
+    "source": "https://passport.gov.gr/en/diadikasia-ekdosis/documents/specificationphoto.html",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "ie-passport",
+    "countryCode": "IE",
+    "country": "Ireland",
+    "document": "Passport & Passport Card",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm (min) – 38 × 50 mm (max)",
+    "headHeightMM": [
+      32,
+      36
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "creamOrLightGrey",
+    "backgroundFill": "#F2F2F2",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": [
+      715,
+      951
+    ],
+    "maxFileKB": 9000,
+    "notes": [
+      "Head size from ICAO guidance; DFA gives no head measurement, only 'head to mid torso' with visible space between head/shoulders and photo edge.",
+      "Print size: minimum 35 × 45 mm, maximum 38 × 50 mm. Paper applications need 4 identical photos, no more than 6 months old.",
+      "Background: completely plain light grey, white or cream, with enough contrast.",
+      "Online (Passport Book or Passport Card): colour JPEG, at least 715 × 951 px, no larger than 9 MB, not scanned, no compression artefacts, no selfies.",
+      "Passport Card is applied for online only and uses the same photo guidelines.",
+      "Clear glasses allowed if frames do not cover eyes and no glare; no sunglasses/dark glasses.",
+      "Neutral expression, mouth closed, no red-eye, no shadows; head covering only for religious or medical reasons."
+    ],
+    "infant": {
+      "maxAgeMonths": 36,
+      "eyesMayBeClosed": false,
+      "mouthMayBeOpen": false,
+      "headHeightMM": null,
+      "notes": [
+        "An infant or very young child who cannot support themselves should be photographed lying down on a plain white surface.",
+        "Hands or arms supporting the child must not be visible; no soothers/pacifiers.",
+        "For babies and small children (newborn to 36 months) the online system may ask you to frame the face manually with its cropping tool.",
+        "Guardians should make every effort to ensure the child is not smiling and mouth is not open."
+      ]
+    },
+    "source": "https://www.ireland.ie/en/dfa/passports/photo-guidelines/",
+    "verified": "2026-09-25",
+    "confidence": "partial"
+  },
+  {
+    "id": "it-id-card",
+    "countryCode": "IT",
+    "country": "Italy",
+    "document": "ID Card",
+    "kind": "id",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm",
+    "headHeightMM": [
+      31.5,
+      36
+    ],
+    "eyeLineFromBottomMM": [
+      23,
+      31
+    ],
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "plainLight",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": 500,
+    "notes": [
+      "Carta d'Identità Elettronica (CIE). Width 35 mm, minimum height 45 mm.",
+      "Source states face height 70–80% of photo height; converted to 31.5–36 mm on a 45 mm photo.",
+      "Eye height from the bottom edge between 23 and 31 mm.",
+      "Background uniform, preferably light blue, beige, light brown, light grey or white.",
+      "Digital photo on USB: JPG, at least 400 dpi, max 500 KB.",
+      "Taken within 6 months; no tinted lenses; neutral expression, mouth closed."
+    ],
+    "infant": null,
+    "source": "https://www.cartaidentita.interno.gov.it/en/request-cie/photo-acquisition-process/",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "it-passport",
+    "countryCode": "IT",
+    "country": "Italy",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm",
+    "headHeightMM": [
+      31.5,
+      36
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Source states face covers 70–80% of the photo (measured chin base to forehead); converted to 31.5–36 mm on a 45 mm photo.",
+      "Polizia di Stato leaflet gives width 35–40 mm (no height); 35 × 45 mm is the size stated by Italian embassies.",
+      "White background with even lighting; colour, taken within 6 months.",
+      "Neutral expression, mouth closed, eyes open; no tinted lenses, heavy frames or flash reflections on glasses.",
+      "Head coverings only for religious reasons, with face from chin to forehead visible."
+    ],
+    "infant": null,
+    "source": "https://ambtallinn.esteri.it/it/news/dall_ambasciata/2020/06/foto-per-passaporto-e-carta-d-identita/",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "lt-passport-id",
+    "countryCode": "LT",
+    "country": "Lithuania",
+    "document": "Passport & ID Card",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm (cut from 40 × 60 mm print)",
+    "headHeightMM": [
+      31,
+      35
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": [
+      2,
+      4
+    ],
+    "faceWidthMM": null,
+    "background": "plainLight",
+    "backgroundFill": "#F2F2F2",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Submit a 40 × 60 mm print sheet with at least 3 identical photos; the office cuts each to 35 × 45 mm, so the 35 × 45 area must hold all the distances.",
+      "Chin to top of head 70–80% of the cut photo height (31–35 mm); 2–4 mm from top edge to top of head; 8–10 mm from chin to bottom edge.",
+      "Background very light, single-colour and even; use a darker background if hair is very light.",
+      "People who always wear glasses are photographed with them; no tinted or coloured lenses, frames must not cover the eyes.",
+      "Black-and-white print recommended for ID card, passport and residence permit.",
+      "Recommended to be taken no more than 6 months before applying.",
+      "Same rules apply to the residence permit and other personal documents."
+    ],
+    "infant": {
+      "maxAgeMonths": 72,
+      "eyesMayBeClosed": true,
+      "mouthMayBeOpen": true,
+      "headHeightMM": null,
+      "notes": [
+        "Pose and expression rules may be waived for children under 6.",
+        "Children under 1 may be held, lying down or seated, on a light, single-colour, even background."
+      ]
+    },
+    "source": "https://e-seimas.lrs.lt/rs/actualedition/TAIS.197394/MnLJunFkDF/",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "lu-passport-id",
+    "countryCode": "LU",
+    "country": "Luxembourg",
+    "document": "Passport & ID Card",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm",
+    "headHeightMM": [
+      32,
+      36
+    ],
+    "headTop": "crown",
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "lightGrey",
+    "backgroundFill": "#D9DADC",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Luxembourg MFA requires photos to meet ICAO quality standards and links the ISO/ICAO photo guidelines: face 70–80% of the photo = 32–36 mm chin to crown.",
+      "Background one colour and bright, ideally neutral grey; no pattern or shadows.",
+      "Glasses allowed if eyes clearly visible; no reflections, tinted glasses or sunglasses; frames must not cover eyes.",
+      "In Luxembourg the ID photo is usually taken on the spot by the issuing office (e.g. Bierger-Center); a printed photo matters mainly for special cases.",
+      "Print resolution at least 600 dpi."
+    ],
+    "infant": null,
+    "source": "https://mae.gouvernement.lu/en/services-aux-citoyens/passeport.html",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "nl-passport-id",
+    "countryCode": "NL",
+    "country": "Netherlands",
+    "document": "Passport & ID Card",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm",
+    "headHeightMM": [
+      26,
+      30
+    ],
+    "headTop": "crown",
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": [
+      16,
+      20
+    ],
+    "background": "plainLight",
+    "backgroundFill": "#D9DADC",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Photo matrix model 2020: face height from chin to crown 26–30 mm (age 11+); face width ear-base to ear-base 16–20 mm.",
+      "Background grey, light blue or white; plain, single colour, no gradient or shadow, enough contrast with the head.",
+      "Glasses allowed if eyes fully visible, lenses fully transparent, no disturbing reflection or shadow; otherwise remove them.",
+      "Colour, max 6 months old, not edited, printed on smooth photo paper at min. 400 dpi; mouth closed, neutral expression.",
+      "Also used for Dutch driving licences."
+    ],
+    "infant": {
+      "maxAgeMonths": 131,
+      "eyesMayBeClosed": false,
+      "mouthMayBeOpen": false,
+      "headHeightMM": [
+        19,
+        30
+      ],
+      "notes": [
+        "Up to and including age 10: face height chin to crown 19–30 mm.",
+        "Under 6: exempt from horizontal eyes, head tilt, straight shoulders, neutral expression, looking into camera and mouth closed; any support must not be visible."
+      ]
+    },
+    "source": "https://www.netherlandsworldwide.nl/passport-id-card/photo-requirements",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "pl-id",
+    "countryCode": "PL",
+    "country": "Poland",
+    "document": "ID Card",
+    "kind": "id",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm",
+    "headHeightMM": [
+      31.5,
+      36
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": [
+      492,
+      633
+    ],
+    "maxFileKB": 2500,
+    "notes": [
+      "Head size converted from the source: face must fill 70–80% of the photo (31.5–36 mm of 45 mm).",
+      "Whole head from the crown plus top of the shoulders.",
+      "White, evenly lit background without shadows.",
+      "Corrective glasses allowed if eyes are clearly visible, frames do not cover eyebrows and lenses show no reflections; dark glasses only with a disability certificate.",
+      "Taken no earlier than 6 months before applying.",
+      "Online application: colour digital photo, min 492 × 633 px, max 2.5 MB, 35 × 45 proportions. At the office: 35 × 45 mm colour print."
+    ],
+    "infant": {
+      "maxAgeMonths": 60,
+      "eyesMayBeClosed": true,
+      "mouthMayBeOpen": true,
+      "headHeightMM": null,
+      "notes": [
+        "Children under 5 may have closed eyes, open mouth or an unnatural expression.",
+        "Face must be uncovered (no hair or toys), head straight, background light and uniform with no other people."
+      ]
+    },
+    "source": "https://www.gov.pl/web/gov/zdjecie-do-dowodu-lub-paszportu",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "pl-passport",
+    "countryCode": "PL",
+    "country": "Poland",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm",
+    "headHeightMM": [
+      31.5,
+      36
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": [
+      768,
+      1004
+    ],
+    "maxFileKB": 2500,
+    "notes": [
+      "Head size converted from the source: face must fill 70–80% of the photo (31.5–36 mm of 45 mm).",
+      "Whole head from the crown plus top of the shoulders.",
+      "White, evenly lit background without shadows.",
+      "Corrective glasses allowed if eyes are clearly visible, frames do not cover eyebrows and lenses show no reflections; dark glasses only with a disability certificate.",
+      "Taken no earlier than 6 months before applying.",
+      "Digital rules (min 768 × 1004 px, max 2.5 MB, colour, 35 × 45 proportions) apply only to online applications for children under 12; at the office submit a 35 × 45 mm colour print."
+    ],
+    "infant": {
+      "maxAgeMonths": 60,
+      "eyesMayBeClosed": true,
+      "mouthMayBeOpen": true,
+      "headHeightMM": null,
+      "notes": [
+        "Children under 5 may have closed eyes, open mouth or an unnatural expression.",
+        "Face must be uncovered (no hair or toys), head straight, background light and uniform with no other people."
+      ]
+    },
+    "source": "https://www.gov.pl/web/gov/zdjecie-do-dowodu-lub-paszportu",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "si-passport-id",
+    "countryCode": "SI",
+    "country": "Slovenia",
+    "document": "Passport & ID Card",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm",
+    "headHeightMM": [
+      32,
+      36
+    ],
+    "headTop": "crown",
+    "eyeLineFromBottomMM": [
+      22.5,
+      31.5
+    ],
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "plainLight",
+    "backgroundFill": "#D9DADC",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Chin to crown 70–80% of the photo (32–36 mm); with voluminous hair the face must not be under 32 mm.",
+      "Eye line converted from the source: 50–70% of photo height from the bottom edge (22.5–31.5 mm).",
+      "Background single-colour and light, ideally neutral grey; medium grey for light hair, light grey for dark hair; no patterns or shadows.",
+      "Glasses allowed without reflections; frames must not cover the eyes; no tinted lenses or sunglasses except for medical reasons.",
+      "Print on white thin glossy photo paper, at least 600 dpi, colour or black-and-white; photo-booth photos are not accepted.",
+      "Neutral expression, mouth closed, looking straight at the camera.",
+      "ID card applications in Slovenia need an e-fotograf reference number from an authorised photographer; paper photos are accepted for the ID card only abroad at embassies/consulates or in exceptional cases. Passport applications accept a paper photo."
+    ],
+    "infant": {
+      "maxAgeMonths": 120,
+      "eyesMayBeClosed": false,
+      "mouthMayBeOpen": false,
+      "headHeightMM": [
+        22,
+        36
+      ],
+      "notes": [
+        "Children under 10: face 50–80% of the photo (22–36 mm, crown without hairstyle); eye line may go down to 40% of photo height (18 mm).",
+        "Children must have mouth closed, no other people in the background, no toys near the face.",
+        "Under 3: deviations in head posture, expression, gaze and centring allowed, but the photo must be frontal and a baby's eyes must be open."
+      ]
+    },
+    "source": "https://www.gov.si/assets/ministrstva/MZEZ/Dokumenti/konzularne-zadeve/oddelek-za-varstvo-interesov-slovencev/Navodila-MNZ-za-biometricno-fotografijo.pdf",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  }
+]

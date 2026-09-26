@@ -1,0 +1,255 @@
+[
+  {
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "infant": null,
+    "verified": "2026-09-25",
+    "id": "in-passport",
+    "countryCode": "IN",
+    "country": "India",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "45 × 35 mm",
+    "headHeightMM": [
+      36.0,
+      38.3
+    ],
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "notAllowed",
+    "notes": [
+      "Official text: the face takes up 80-85% of the photograph; converted to 36.0-38.3 mm of the 45 mm height (read as top of hair to chin, since the photo must show the full head from top of hair to bottom of chin).",
+      "In India the photo is normally captured at the Passport Seva Kendra; printed photos are required for minors below 4 years.",
+      "Colour photo, eyes open, mouth closed, neutral expression, head centred and not tilted, no shadows or red-eye.",
+      "Since 1 September 2025 MEA's ICAO guidance says glasses should be taken off to avoid reflections.",
+      "Head coverings only for religious reasons, with the face from chin to forehead and both edges visible."
+    ],
+    "source": "https://passportindia.gov.in/AppOnlineProject/pdf/GUIDELINES%20FOR%20CAPTURING%20PHOTOGRAPHS%20FOR%20MINORS_v2.1.pdf",
+    "confidence": "confirmed"
+  },
+  {
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "digitalPixels": [
+      630,
+      810
+    ],
+    "minPixels": null,
+    "maxFileKB": null,
+    "infant": null,
+    "verified": "2026-09-25",
+    "id": "in-passport-abroad",
+    "countryCode": "IN",
+    "country": "India",
+    "document": "Passport (applying abroad)",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "630 × 810 px",
+    "headHeightMM": [
+      36.0,
+      38.3
+    ],
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "notAllowed",
+    "notes": [
+      "For applications at Indian embassies and consulates (Passport Seva at Indian Embassies and Consulates portal).",
+      "Official text: the face takes up 80-85% of the photograph; converted to 36.0-38.3 mm on a 35 × 45 mm frame (7:9, same ratio as 630 × 810 px), i.e. about 648-689 px of the 810 px height.",
+      "Colour, unaltered by software, white background, eyes open, mouth not open, head not tilted.",
+      "Glasses to be taken off to avoid reflections.",
+      "Taken from about 1.5 m from the camera."
+    ],
+    "source": "https://cgivancouver.gov.in/public_files/assets/pdf/Guidelines_for_uploading_ICAO_2025.pdf",
+    "confidence": "confirmed"
+  },
+  {
+    "eyeLineFromBottomMM": [
+      28.6,
+      34.9
+    ],
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": 300,
+    "infant": null,
+    "verified": "2026-09-25",
+    "id": "in-visa",
+    "countryCode": "IN",
+    "country": "India",
+    "document": "Visa",
+    "kind": "visa",
+    "widthMM": 50.8,
+    "heightMM": 50.8,
+    "sizeLabel": "2 × 2 in (51 × 51 mm)",
+    "headHeightMM": [
+      25.0,
+      35.0
+    ],
+    "background": "plainLight",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "discouraged",
+    "notes": [
+      "Regular (non e-Visa) application. Height and width of the photo must be equal.",
+      "Head 1 to 1-3/8 in (25-35 mm); eye height 1-1/8 to 1-3/8 in from the bottom.",
+      "Plain light-coloured or white background, no shadows, no borders.",
+      "Upload: JPEG, 10-300 KB.",
+      "The instructions page does not state a print size or a glasses rule; 2 × 2 in (51 × 51 mm) is the size Indian missions list for visa photos."
+    ],
+    "source": "https://indianvisaonline.gov.in/visa/instruction.html",
+    "confidence": "partial"
+  },
+  {
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": 1000,
+    "infant": null,
+    "verified": "2026-09-25",
+    "id": "in-evisa",
+    "countryCode": "IN",
+    "country": "India",
+    "document": "e-Visa",
+    "kind": "visa",
+    "widthMM": 35,
+    "heightMM": 35,
+    "sizeLabel": "Square JPEG",
+    "headHeightMM": [
+      17.2,
+      24.1
+    ],
+    "background": "plainLight",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "notAllowed",
+    "notes": [
+      "Digital upload only: JPEG, 10 KB to 1 MB, height and width must be equal.",
+      "Full face, front view, eyes open and without spectacles; full head from top of hair to bottom of chin, centred.",
+      "Plain light-coloured or white background, no shadows, no borders.",
+      "Head size from the regular visa instructions on the same portal (25-35 mm on a 2 × 2 in photo = 49-69% of the height), scaled to this 35 mm square frame; the e-Visa page gives no head size."
+    ],
+    "source": "https://indianvisaonline.gov.in/evisa/tvoa.html",
+    "confidence": "partial"
+  },
+  {
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "infant": null,
+    "verified": "2026-09-25",
+    "id": "in-oci",
+    "countryCode": "IN",
+    "country": "India",
+    "document": "OCI Card",
+    "kind": "residence",
+    "widthMM": 50.8,
+    "heightMM": 50.8,
+    "sizeLabel": "2 × 2 in (51 × 51 mm)",
+    "headHeightMM": [
+      25.0,
+      35.0
+    ],
+    "background": "plainLight",
+    "backgroundFill": "#F2F2F2",
+    "glasses": "allowed",
+    "notes": [
+      "Colour, clear continuous-tone print; full face, front view, eyes open; full head from top of hair to bottom of chin, centred.",
+      "Embassy text says plain white or off-white background; the OCI online portal is reported to ask for a plain light-coloured background that is not pure white, so off-white is used.",
+      "Non-tinted prescription glasses allowed if the eyes are clearly visible.",
+      "Taken within the last 3 months.",
+      "Head size from the Indian visa portal's rule for square photos (25-35 mm); the OCI pages give no head size."
+    ],
+    "source": "https://eoilima.gov.in/page/oci-pio-card/",
+    "confidence": "partial"
+  },
+  {
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "infant": {
+      "maxAgeMonths": 36,
+      "eyesMayBeClosed": false,
+      "mouthMayBeOpen": true,
+      "headHeightMM": null,
+      "notes": [
+        "For children under 3 the mouth may be open.",
+        "No one else can be visible in the photo (no parent's hand)."
+      ]
+    },
+    "verified": "2026-09-25",
+    "id": "au-passport",
+    "countryCode": "AU",
+    "country": "Australia",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35–40 × 45–50 mm",
+    "headHeightMM": [
+      32.0,
+      36.0
+    ],
+    "headTop": "crown",
+    "background": "whiteOrOffWhite",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "notAllowed",
+    "notes": [
+      "Photos may be 35-40 mm wide and 45-50 mm high; face from chin to crown 32-36 mm.",
+      "Plain white or light grey background that contrasts with the face.",
+      "Less than 6 months old; dye-sublimation colour prints on glossy paper of at least 200 gsm; no retouching.",
+      "Glasses only when they can't be removed for medical reasons.",
+      "Religious head coverings allowed if plain and the whole face is visible."
+    ],
+    "source": "https://www.passports.gov.au/help/passport-photos",
+    "confidence": "confirmed"
+  },
+  {
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "infant": null,
+    "verified": "2026-09-25",
+    "id": "fj-passport",
+    "countryCode": "FJ",
+    "country": "Fiji",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "3.5 × 4.5 cm",
+    "headHeightMM": [
+      31.5,
+      36.0
+    ],
+    "headTop": "crown",
+    "background": "plainLight",
+    "backgroundFill": "#F2F2F2",
+    "glasses": "allowed",
+    "notes": [
+      "Official text: the face (from forehead edge to bottom of chin) should be 70 to 80% of the photo or one inch height; 70-80% of 45 mm is 31.5-36.0 mm. The page measures from the forehead, not the top of the hair, and its 'one inch' alternative (25.4 mm) conflicts with the percentage.",
+      "Close up of head and partial shoulders, centred, neutral expression, eyes open.",
+      "Prescription glasses only if clear, thin-framed, without reflection and not obscuring the eyes.",
+      "Plain light background, uniform lighting, no other people or objects; professional print, not Polaroid or ordinary printer."
+    ],
+    "source": "https://immigration.gov.fj/guidelines-for-passport-photographs/",
+    "confidence": "partial"
+  }
+]

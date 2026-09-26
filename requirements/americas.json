@@ -1,0 +1,457 @@
+[
+  {
+    "id": "us-passport",
+    "countryCode": "US",
+    "country": "United States",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 50.8,
+    "heightMM": 50.8,
+    "sizeLabel": "2 × 2 in",
+    "headHeightMM": [
+      25.4,
+      34.9
+    ],
+    "headTop": "crown",
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "whiteOrOffWhite",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "notAllowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Head 1 to 1 3/8 in (25–35 mm) from bottom of chin to top of head.",
+      "8 FAM 402.1-2 says head size is measured to the top of the head, not the applicant's hair; the public page says hair may extend past the photo edges as long as the entire head is shown.",
+      "Colour photo taken in the last 6 months; neutral expression or natural smile, eyes open, mouth closed.",
+      "No glasses unless they cannot be removed for medical reasons (signed doctor's note required).",
+      "No hats or head coverings except for religious or medical reasons (signed statement).",
+      "No filters, digital edits or AI enhancement.",
+      "The passport photo page gives no eye-line range; State Dept's visa photo template uses 1 1/8–1 3/8 in (28–35 mm) from the bottom.",
+      "Online renewal upload: JPG/JPEG/PNG/HEIC/HEIF, 54 KB–10 MB."
+    ],
+    "infant": {
+      "maxAgeMonths": null,
+      "eyesMayBeClosed": true,
+      "mouthMayBeOpen": false,
+      "headHeightMM": null,
+      "notes": [
+        "It is acceptable if a baby's (especially a newborn's) eyes are partially or completely closed; all other children must have eyes open.",
+        "Head may be discreetly supported, e.g. a car seat covered with a white or off-white blanket; head tilt is acceptable for infants.",
+        "No other person (including a parent's face or hands covering the face) may be in the photo; no pacifier covering the face."
+      ]
+    },
+    "source": "https://travel.state.gov/en/passports/apply/help/photos.html",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "us-passport-card",
+    "countryCode": "US",
+    "country": "United States",
+    "document": "Passport Card",
+    "kind": "passport",
+    "widthMM": 50.8,
+    "heightMM": 50.8,
+    "sizeLabel": "2 × 2 in",
+    "headHeightMM": [
+      25.4,
+      34.9
+    ],
+    "headTop": "crown",
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "whiteOrOffWhite",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "notAllowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "The passport card uses the same photo standard as the passport book (8 FAM 402.1 applies to both); one 2 × 2 in photo with the DS-11/DS-82.",
+      "Head 1 to 1 3/8 in from bottom of chin to top of head (not hair).",
+      "Colour photo taken in the last 6 months; no glasses except for documented medical reasons.",
+      "Uniforms and military/law-enforcement-style clothing are not acceptable for passport books or cards."
+    ],
+    "infant": {
+      "maxAgeMonths": null,
+      "eyesMayBeClosed": true,
+      "mouthMayBeOpen": false,
+      "headHeightMM": null,
+      "notes": [
+        "Infant's eyes, particularly a newborn's, may be partially or completely closed.",
+        "Head may be discreetly supported (e.g. car seat with a white or off-white blanket); head tilt is acceptable.",
+        "A parent's face cannot be in the photo."
+      ]
+    },
+    "source": "https://fam.state.gov/fam/08fam/08fam040201.html",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "us-visa",
+    "countryCode": "US",
+    "country": "United States",
+    "document": "Visa",
+    "kind": "visa",
+    "widthMM": 50.8,
+    "heightMM": 50.8,
+    "sizeLabel": "2 × 2 in (digital: 600–1200 px square)",
+    "headHeightMM": [
+      25.4,
+      34.9
+    ],
+    "eyeLineFromBottomMM": [
+      28.6,
+      34.9
+    ],
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "whiteOrOffWhite",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "notAllowed",
+    "digitalPixels": null,
+    "minPixels": [
+      600,
+      600
+    ],
+    "maxFileKB": 240,
+    "notes": [
+      "Head (top of hair to bottom of chin) 1 to 1 3/8 in (25–35 mm) on paper, or 50%–69% of the digital image height.",
+      "Eye height 1 1/8 to 1 3/8 in (28–35 mm) from the bottom on paper, or 56%–69% of the digital image height.",
+      "DS-160 / DS-1648 digital upload: JPEG, square, minimum 600 × 600 px, maximum 1200 × 1200 px, ≤ 240 kB, sRGB 24-bit colour, compression ratio ≤ 20:1.",
+      "Diversity Visa entry: exactly 600 × 600 px JPEG, ≤ 240 kB.",
+      "Immigrant visa (DS-260) and DV selectees bring two identical 2 × 2 in printed photos.",
+      "Taken within the last 6 months; neutral expression, both eyes open.",
+      "Eyeglasses not allowed except in rare medical cases with a signed medical statement.",
+      "Babies must have eyes open in visa photos."
+    ],
+    "infant": null,
+    "source": "https://travel.state.gov/content/travel/en/us-visas/visa-information-resources/photos/photo-composition-template.html",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "us-uscis",
+    "countryCode": "US",
+    "country": "United States",
+    "document": "USCIS (Green Card, Naturalization, EAD)",
+    "kind": "residence",
+    "widthMM": 50.8,
+    "heightMM": 50.8,
+    "sizeLabel": "2 × 2 in",
+    "headHeightMM": [
+      25.4,
+      34.9
+    ],
+    "eyeLineFromBottomMM": [
+      28.6,
+      34.9
+    ],
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "whiteOrOffWhite",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "discouraged",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Passport-style photos: two identical colour photos, 2 × 2 in, full-face frontal view.",
+      "Head height 1 to 1 3/8 in from the top of the hair to the bottom of the chin; eye height 1 1/8 to 1 3/8 in from the bottom of the photo.",
+      "White to off-white background; printed on thin paper with a glossy finish; unmounted and unretouched; taken recently.",
+      "Head must be bare unless headwear is required by religious denomination.",
+      "Print name and A-Number lightly on the back in pencil or felt pen.",
+      "Used for Forms I-485, N-400 (when required), I-765 and similar. USCIS form instructions do not mention glasses; the State Department passport/visa standard bans them, so remove them."
+    ],
+    "infant": null,
+    "source": "https://www.uscis.gov/sites/default/files/document/forms/i-485instr.pdf",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "ca-passport",
+    "countryCode": "CA",
+    "country": "Canada",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 50,
+    "heightMM": 70,
+    "sizeLabel": "50 × 70 mm (2 × 2¾ in)",
+    "headHeightMM": [
+      31,
+      36
+    ],
+    "headTop": "crown",
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "plainLight",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": [
+      1200,
+      1800
+    ],
+    "maxFileKB": 5000,
+    "notes": [
+      "Face height 31–36 mm (1¼–1 7/16 in) from chin to crown (top of head); IRCC defines crown as the top of the head/skull where hair obscures it.",
+      "Plain white or light-coloured background with clear contrast to the face.",
+      "Taken by a commercial photographer or studio, no more than 6 months before applying.",
+      "Neutral expression: eyes open and clearly visible, mouth closed, not smiling or frowning.",
+      "Glasses allowed if eyes are clearly visible with no glare; no sunglasses or tinted lenses.",
+      "Online renewal digital photo: JPEG, 3:2 portrait, 1200 × 1800 px to 3000 × 4500 px, 200 KB–5 MB, chin-to-crown 45%–50% of photo height."
+    ],
+    "infant": {
+      "maxAgeMonths": null,
+      "eyesMayBeClosed": false,
+      "mouthMayBeOpen": false,
+      "headHeightMM": null,
+      "notes": [
+        "IRCC allows some range of facial expression for newborns, but does not say eyes may be closed.",
+        "A newborn may be photographed in a car seat with a white blanket over the seat behind the head, with no shadows."
+      ]
+    },
+    "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/photos.html",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "ca-pr-card",
+    "countryCode": "CA",
+    "country": "Canada",
+    "document": "Permanent Resident Card",
+    "kind": "residence",
+    "widthMM": 50,
+    "heightMM": 70,
+    "sizeLabel": "50 × 70 mm (2 × 2¾ in)",
+    "headHeightMM": [
+      31,
+      36
+    ],
+    "headTop": "crown",
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": [
+      715,
+      1000
+    ],
+    "maxFileKB": 4000,
+    "notes": [
+      "Head 31–36 mm from bottom of chin to top of head, not including hair.",
+      "Plain, untextured white background; no shadows on face, shoulders, around ears or in background.",
+      "Taken no more than 12 months before applying.",
+      "Glasses allowed if eyes are clearly visible with no glare.",
+      "Digital photo: JPEG, 715 × 1000 px to 2000 × 2800 px, 4 MB or less.",
+      "Photos printed at home on heavyweight paper are not accepted."
+    ],
+    "infant": {
+      "maxAgeMonths": null,
+      "eyesMayBeClosed": false,
+      "mouthMayBeOpen": false,
+      "headHeightMM": null,
+      "notes": [
+        "IRCC allows a range of facial expressions for newborns but does not say eyes may be closed."
+      ]
+    },
+    "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/permanent-residents/card/photos.html",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "ca-visa",
+    "countryCode": "CA",
+    "country": "Canada",
+    "document": "Visa",
+    "kind": "visa",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm (1⅜ × 1¾ in) minimum",
+    "headHeightMM": [
+      31,
+      36
+    ],
+    "headTop": "crown",
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "plainLight",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "allowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Temporary resident visa: frame at least 35 × 45 mm; head 31–36 mm chin to crown.",
+      "Crown is the top of the head, or where the top of the skull would be if obscured by hair or head covering.",
+      "Plain white or light-coloured background.",
+      "Two identical photos taken within the last 6 months, on quality photographic paper; digital photos must not be altered.",
+      "Non-tinted prescription glasses allowed if eyes are clearly visible; no sunglasses.",
+      "Neutral expression, mouth closed, facing the camera."
+    ],
+    "infant": null,
+    "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/application/application-forms-guides/temporary-resident-visa-application-photograph-specifications.html",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "jm-passport",
+    "countryCode": "JM",
+    "country": "Jamaica",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "35 × 45 mm",
+    "headHeightMM": [
+      25,
+      35
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": [
+      3,
+      4
+    ],
+    "faceWidthMM": null,
+    "background": "plainLight",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "discouraged",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Two identical colour photographs, matte/dull finish (PICA poster recommends semi-gloss, high-quality paper), taken no more than 6 months before the application.",
+      "Face length (chin to top of head) 25–35 mm; PICA web page gives a 3–4 mm margin between head and top edge, while the PICA photo poster says at least 2 mm from the top of the head (including hair).",
+      "Plain background with no shadows or objects. PICA advises: light complexion – pastel-shaded background and no white clothing; dark complexion – white background with coloured clothing; grey/white hair – pale blue or pastel background.",
+      "Neutral expression, no smiling; face square to the camera; eyes open, no hair across eyes or forehead; both ears visible as far as possible.",
+      "Glasses: no tinted lenses, no reflections, avoid heavy frames; PICA strongly recommends removing glasses.",
+      "Head covering only for religious reasons, with the face from chin to top of forehead visible.",
+      "One photo must be certified on the back by a Consular Officer, JP, Notary Public, Commissioner of Oaths, Medical Doctor or Lawyer (certification not older than 6 months); no stamps or seals on the photo; do not staple or clip.",
+      "Online adult renewal (passport.pica-online.com) takes a digital photo checked by PICA's photo checker; exact pixel/file limits were not found on an official page."
+    ],
+    "infant": null,
+    "source": "https://www.pica.gov.jm/passport/photo-requirements",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "tt-passport",
+    "countryCode": "TT",
+    "country": "Trinidad and Tobago",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 31,
+    "heightMM": 41,
+    "sizeLabel": "31 × 41 mm",
+    "headHeightMM": [
+      28.7,
+      32.8
+    ],
+    "headTop": "crown",
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "notAllowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Size stated as 31 mm wide × 41 mm high ('at least' in embassy instructions).",
+      "Head size: the source gives chin to crown (top of the head without hair) as 70–80% of the photo height, converted to 28.7–32.8 mm for a 41 mm photo.",
+      "First-time and in-country applicants have their photo taken live at the Immigration Office; printed photos are needed for renewals through missions abroad and for replacing a lost, stolen or damaged passport (one photo, solid white background).",
+      "Taken within the last 6 months; colour; neutral expression, mouth closed, eyes open, facing square to the camera; no hair on forehead or over eyes/ears; both edges of face visible.",
+      "Spectacles are not acceptable in the portrait (2026 Ministry instructions).",
+      "Headdress only for religious or medical reasons; no facial markings, tattoos or piercings that obscure the face.",
+      "Do not pin, staple or glue photos; the recommender certifies the back of one photo; no notarial seals on photos.",
+      "Some missions set their own size: the Consulate General in New York asks for 2 × 2 in and Toronto asks for at least 5 × 5 cm; check with the mission you are applying through."
+    ],
+    "infant": null,
+    "source": "https://foreign.gov.tt/documents/703/ADULT_PASSPORT_Instructions.pdf",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "tt-passport-us",
+    "countryCode": "TT",
+    "country": "Trinidad and Tobago",
+    "document": "Passport (New York Consulate)",
+    "kind": "passport",
+    "widthMM": 50.8,
+    "heightMM": 50.8,
+    "sizeLabel": "2 × 2 in",
+    "headHeightMM": [
+      25.4,
+      34.9
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "notAllowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "For passport renewals through the Consulate General of Trinidad and Tobago in New York (instructions updated January 2026): two passport photos.",
+      "Face size from crown to chin between 1 in and 1⅜ in (25.4–34.9 mm); the consulate says 'crown' and does not say whether hair is included.",
+      "Taken within the last 6 months; colour; plain white background; even lighting with no shadows or reflections.",
+      "No glasses or contact lenses; eyes open, mouth closed, neutral expression (no smiling), facing the camera squarely, head upright.",
+      "No hair covering forehead, eyes or ears; both edges of face and ears visible; headdress only for religious or medical reasons.",
+      "No facial jewellery, markings, tattoos or piercings that obscure the face; no camouflage prints; shoulders covered."
+    ],
+    "infant": null,
+    "source": "https://foreign.gov.tt/documents/750/1._CGNY_MRP_Renewal_Instructions_-_FINAL_-_Jan_2026.pdf",
+    "verified": "2026-09-25",
+    "confidence": "confirmed"
+  },
+  {
+    "id": "pa-passport",
+    "countryCode": "PA",
+    "country": "Panama",
+    "document": "Passport",
+    "kind": "passport",
+    "widthMM": 35,
+    "heightMM": 45,
+    "sizeLabel": "3,5 cm × 4,5 cm",
+    "headHeightMM": [
+      31.5,
+      36
+    ],
+    "eyeLineFromBottomMM": null,
+    "topMarginMM": null,
+    "faceWidthMM": null,
+    "background": "white",
+    "backgroundFill": "#FFFFFF",
+    "glasses": "notAllowed",
+    "digitalPixels": null,
+    "minPixels": null,
+    "maxFileKB": null,
+    "notes": [
+      "Printed photos are needed only when applying from abroad by mail/through a consulate without biometric equipment; in Panama (APAP) and at consulates with APAP equipment the photo is taken on site and no photos are needed.",
+      "Size 3.5 × 4.5 cm as stated by the Embassy of Panama in Germany (3 photos for adults, 4 for minors). The APAP data-capture form (Formato de captura de datos) has a portrait box labelled 4 × 5 cm.",
+      "Head size from ICAO guidance: Panama requires photos that meet ICAO (OACI) requirements; ICAO 9303 chin-to-crown 70–80% of photo height = 31.5–36 mm on a 45 mm photo.",
+      "Background must be completely white; colour photo.",
+      "Stand upright, centred, looking at the camera; ears visible.",
+      "Small earrings only; no hair clips or ribbons; no piercings; no glasses.",
+      "Smiling without showing teeth is accepted.",
+      "No low-cut tops or bare shoulders; embassy advises not wearing white and preferably tying long hair back.",
+      "Religious veils (face uncovered) and turbans are permitted."
+    ],
+    "infant": null,
+    "source": "https://botschaft-panama.de/solicitud-de-pasaportes/",
+    "verified": "2026-09-25",
+    "confidence": "partial"
+  }
+]
