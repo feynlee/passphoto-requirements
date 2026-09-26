@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-09-26",
+  "documents": [
+    {
+      "id": "ca-passport",
+      "status": "unchanged",
+      "source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/photos.html",
+      "note": "All fields (50x70mm, 31-36mm chin-to-crown, plain white/light background, glasses rules, digital photo 1200x1800-3000x4500px 200KB-5MB with 45-50% chin-to-crown, infant car-seat/blanket rules) match the current page; only the verified date changed.",
+      "changes": []
+    },
+    {
+      "id": "gb-passport",
+      "status": "unchanged",
+      "source": "https://www.gov.uk/photos-for-passports/photo-requirements",
+      "note": "35x45mm, 29-34mm crown-to-chin, cream/light-grey background, discouraged glasses, and (via the linked digital-photos page) 600x750px minimum and 50KB-10MB file size, plus the under-1 infant exception (eyes may be closed, hand support allowed but not visible), all match the current entry; only the verified date changed.",
+      "changes": []
+    },
+    {
+      "id": "jp-passport",
+      "status": "changed",
+      "source": "https://www.pref.osaka.lg.jp/o070140/passport/top/shashin.html",
+      "note": "Core spec (35x45mm, 34mm ± 2mm chin-to-crown, plain background, glasses/lens rules) is unchanged, but the page documents an infant exception (round-face sizing allowance, and photographing a reclined baby from above) that wasn't previously captured in the entry, so the infant field was populated.",
+      "changes": [
+        {
+          "field": "infant",
+          "sourceURL": "https://www.pref.osaka.lg.jp/o070140/passport/top/shashin.html",
+          "quote": "乳幼児など丸顔のため、顔の縦の長さを写真規格の最小である32ミリメートルとしても写真の横幅内に顔全体が収まらない場合には、縦方向が32ミリメートルに満たなくても、耳を含めた顔全体を写真に収めるようにしてください。座れない場合は、無地で淡い色のシーツ等に寝かせて真上から撮影したものでも結構です。",
+          "reasoning": "The page states that for round-faced infants whose full face (including ears) doesn't fit within the frame at the standard 32mm minimum chin-to-crown height, a height below 32mm is permitted as long as the whole face and ears are shown; and that infants who cannot sit up may be laid on a plain light-coloured sheet and photographed from directly above. These are new, distinct infant-specific rules not previously recorded, so infant was changed from null to an object capturing them (headHeightMM left null since the exception is conditional rather than a fixed alternate range; eyesMayBeClosed/mouthMayBeOpen kept false since the page's general rule against closed eyes and markedly different expressions is not stated to be waived for infants)."
+        }
+      ]
+    }
+  ]
+}
