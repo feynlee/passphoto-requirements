@@ -270,9 +270,18 @@
       "Specification follows ICAO recommendations (MOFA). Values read from the Osaka Prefecture passport office page, which links to the MOFA specification.",
       "Infants: photos with eyes closed or an expression markedly different from normal (e.g. open-mouthed smile) are not accepted."
     ],
-    "infant": null,
+    "infant": {
+      "maxAgeMonths": null,
+      "eyesMayBeClosed": false,
+      "mouthMayBeOpen": false,
+      "headHeightMM": null,
+      "notes": [
+        "If a round face means the whole face doesn't fit within the frame at the minimum 32 mm chin-to-crown height, less than 32 mm is allowed as long as the entire face, including the ears, is captured.",
+        "If the baby cannot sit up, lay them on a plain, light-coloured sheet and photograph from directly above."
+      ]
+    },
     "source": "https://www.pref.osaka.lg.jp/o070140/passport/top/shashin.html",
-    "verified": "2026-09-25",
+    "verified": "2026-09-26",
     "confidence": "confirmed"
   },
   {
