@@ -1,0 +1,98 @@
+name: Quarterly requirements review
+
+# Re-checks every document against its official page on 1 January, April, July and October.
+# Unchanged documents are confirmed automatically (only their "as of" date moves). Any changed value
+# opens a pull request with the official link and quoted evidence for each change; nothing reaches the
+# app until it's merged.
+on:
+  schedule:
+    - cron: "0 14 1 1,4,7,10 *"
+  workflow_dispatch:
+    inputs:
+      only:
+        description: "Only check these ids, comma-separated (empty checks everything)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  id-token: write
+
+concurrency:
+  group: requirements-review
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check each document against its official page
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            Follow the instructions in tools/REVIEW_PROMPT.md.
+            Use today's UTC date (run `date -u +%F`) for `verified` and `checkedAt`.
+            Documents to check: ${{ inputs.only != '' && inputs.only || 'all of them' }}.
+          claude_args: |
+            --max-turns 700
+            --allowedTools "Read,Write,Edit,Glob,Grep,WebFetch,WebSearch,Bash(python3 tools/validate.py:*),Bash(date:*)"
+
+      - name: Validate and write the review report
+        id: validate
+        run: python3 tools/validate.py --base origin/main --evidence review/evidence.json --report review/PR_BODY.md --write-manifest
+
+      - name: Publish confirmations (no values changed)
+        if: steps.validate.outputs.value_changes == 'false' && steps.validate.outputs.dates_only == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add requirements manifest.json review/evidence.json
+          git commit -m "Confirm requirements unchanged as of $(date -u +%F)"
+          git push origin HEAD:main
+          curl -fsS "https://purge.jsdelivr.net/gh/${{ github.repository }}@main/manifest.json" || true
+
+      - name: Open a pull request for the changes
+        if: steps.validate.outputs.value_changes == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: review/${{ github.run_id }}
+          base: main
+          title: ${{ steps.validate.outputs.unsupported != '0' && '⚠️ ' || '' }}Requirements review — changes to approve
+          body-path: review/PR_BODY.md
+          commit-message: Update requirements from the quarterly review
+          add-paths: |
+            requirements/*.json
+            manifest.json
+            review/evidence.json
+          labels: requirements-review
+
+      - name: List pages that couldn't be checked
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 - <<'PY' > unreachable.md
+          import json, pathlib
+          p = pathlib.Path("review/evidence.json")
+          docs = json.loads(p.read_text()).get("documents", []) if p.exists() else []
+          bad = [d for d in docs if d.get("status") == "unreachable"]
+          if bad:
+              print("These official pages couldn't be read in this review. Their “as of” date stays at the last successful check.\n")
+              for d in bad:
+                  print(f"- `{d['id']}`: {d.get('source', '')} — {d.get('note', '')}")
+          PY
+          if [ -s unreachable.md ]; then
+            gh issue create --title "Requirements review: pages to check by hand ($(date -u +%F))" --body-file unreachable.md
+          fi
