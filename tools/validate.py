@@ -12,6 +12,7 @@ With --base, every entry is compared with the version on that git ref. Changes o
 `value_changes=true|false` and `unsupported=N` for the workflow (also to $GITHUB_OUTPUT).
 """
 import argparse
+from urllib.parse import urlparse
 import hashlib
 import json
 import os
@@ -55,6 +56,10 @@ EFFECTS = {
     "kind": "Which group the document is listed under.",
     "confidence": "Whether the app shows a 'check the official rules' note.",
 }
+
+
+# US-embargoed countries (Apple's App Review guideline 5); never include them or link to their domains.
+EMBARGOED = {"CU", "IR", "KP", "SY"}
 
 
 def load_dir(files):
@@ -117,6 +122,10 @@ def check(sid, s, errors, warnings):
         errors.append(f"{sid}: unknown applicantPhoto {s.get('applicantPhoto')!r}")
     if not str(s.get("source", "")).startswith("https://"):
         errors.append(f"{sid}: source must be an https URL")
+    # Apple can't distribute apps connected to US-embargoed countries, so they must never be listed or linked.
+    host = urlparse(str(s.get("source", ""))).hostname or ""
+    if s.get("countryCode") in EMBARGOED or host.rsplit(".", 1)[-1].upper() in EMBARGOED:
+        errors.append(f"{sid}: {s.get('countryCode')} / {host} is a US-embargoed country; it can't be included")
     if not re.fullmatch(r"#[0-9A-Fa-f]{6}", s.get("backgroundFill", "#FFFFFF")):
         errors.append(f"{sid}: backgroundFill must be #RRGGBB")
     try:

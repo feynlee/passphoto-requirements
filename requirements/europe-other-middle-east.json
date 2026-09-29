@@ -357,43 +357,5 @@
     "source": "https://visa.visitsaudi.com/Home/PhotoSpecifications",
     "verified": "2026-09-25",
     "confidence": "partial"
-  },
-  {
-    "id": "ir-evisa",
-    "countryCode": "IR",
-    "country": "Iran",
-    "document": "E-Visa",
-    "kind": "visa",
-    "widthMM": 40,
-    "heightMM": 60,
-    "sizeLabel": "400 × 600 px (min)",
-    "headHeightMM": [
-      42,
-      48
-    ],
-    "eyeLineFromBottomMM": null,
-    "topMarginMM": null,
-    "faceWidthMM": null,
-    "background": "whiteOrOffWhite",
-    "backgroundFill": "#FFFFFF",
-    "glasses": "notAllowed",
-    "digitalPixels": null,
-    "minPixels": [
-      400,
-      600
-    ],
-    "maxFileKB": 500,
-    "notes": [
-      "Digital JPEG upload: at least 400 × 600 px, 10–500 KB, height greater than width. The 40 × 60 mm frame here is notional, matching the minimum pixel proportions.",
-      "About 70–80% of the photo filled by the face (42–48 mm on the notional 60 mm frame; converted from the percentage).",
-      "Plain white or off-white background; colour; neutral expression, both eyes open.",
-      "Glasses not allowed except for documented medical reasons.",
-      "A headscarf is not required; religious head covering worn daily is allowed if the full face is visible. Taken within the last 6 months.",
-      "Babies: no other person in the photo; lay the baby on a plain white or off-white sheet. Eyes must be open."
-    ],
-    "infant": null,
-    "source": "https://evisatraveller.mfa.ir/en/request/digital_image_requirement/?title_name=photo",
-    "verified": "2026-09-25",
-    "confidence": "partial"
   }
 ]

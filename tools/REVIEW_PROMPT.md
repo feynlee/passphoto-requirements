@@ -20,6 +20,8 @@ For each entry to check (all entries, unless the workflow names specific ids):
      page moved. Convert units exactly as SCHEMA.md says (e.g. "70–80% of a 45 mm photo" → [31.5, 36]).
    - **Couldn't read the page** (blocked, 403, down, no replacement found): change nothing, not even
      `verified`.
+   - Never add, restore or link to documents from US-embargoed countries (Cuba, Iran, North Korea,
+     Syria). Apple rejects apps connected to them; the validator fails if one appears.
    - Never guess or fill a value that isn't printed on an official page. If the page is ambiguous, leave
      the value as it is and say so in the evidence note.
 4. Record what you found in `review/evidence.json` (overwrite it each run):

@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "version": 202609261508,
+  "version": 202609292134,
   "asOf": "2026-09-26",
-  "generated": "2026-09-26T15:08:28Z",
-  "documents": 69,
+  "generated": "2026-09-29T21:34:51Z",
+  "documents": 68,
   "files": [
     {
       "path": "requirements/africa.json",
@@ -32,8 +32,8 @@
     },
     {
       "path": "requirements/europe-other-middle-east.json",
-      "sha256": "c34f2b1bc8413b65448b82caae6f25e4f3b3c8da518f7d74411ae856d04b0465",
-      "bytes": 14000
+      "sha256": "de585fe089a2f3387fbc22bc01cfc8b2542fa9e5d900ba7928c701481b8a99ca",
+      "bytes": 12548
     }
   ]
 }
